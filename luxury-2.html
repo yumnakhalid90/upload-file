@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury | Marina Fleet</title>
+    <!-- Website icon -->
+    <link rel="shortcut icon" href="assets/Images/Marina Fleet 1.png">
+
+    <!-- This is my jQuery UI CSS File -->
+    <link rel="stylesheet" href="assets/jquery/jquery-ui-1.13.2.custom/jquery-ui.min.css">
+
+    <!-- This is my Bootstrap CSS File -->
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css">
+
+    <!-- This is my FontAwesome CSS File -->
+    <link rel="stylesheet" href="assets/Font Awesome/css/all.min.css">
+
+    <!-- This is my WOW Animation CSS File -->
+    <link rel="stylesheet" href="assets/WOW/animate.css">
+
+    <!-- This is my Customized CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Download Button -->  
+<a href="download-forms.html" class="text-decoration-none"><button class="btn btn-success rounded-circle download">Download Forms!</button></a>
+<!-- Download Button -->
+    
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <button
+    class="navbar-toggler ms-1"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <a class="navbar-brand h-25" href="index.html"
+        ><img
+          src="assets/Images/Marina Fleet Logo.png"
+          alt="Logo"
+          draggable="false"
+          height="100px"
+      /></a>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-center mx-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2 hover_effect" href="index.html"><i class="fa-solid fa-house pe-2" style="color: brown;"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 hover_effect" href="luxury.html"><i class="fa-solid fa-gem pe-2" style="color: rebeccapurple"></i>Luxury</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 hover_effect" href="sailing.html"><i class="fa-solid fa-sailboat pe-2" style="color: skyblue"></i>Sailing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 hover_effect" href="fishing.html"><i class="fa-solid fa-fish pe-2" style="color: gold"></i>Fishing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 hover_effect" href="feedback.html"><i class="fa-solid fa-message pe-2" style="color: blue;"></i>Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 hover_effect" href="about.html"><i class="fa-solid fa-circle-info pe-2" style="color: orangered"></i>About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 hover_effect" href="gallery.html"><i class="fa-solid fa-images pe-2" style="color: deeppink"></i>Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
+    
+<!--Filter Section starts here-->
+<div class="container-fluid mb-3 mt-5">
+    <div class="row justify-content-center">
+        <div class="col">
+            <div class="input-group justify-content-center font-size">
+          <div class="form-floating w-75">
+            <input type="search" id="form1" class="form-control" placeholder="Seach Yachts" style="box-shadow: none;">
+            <label class="form-label" for="form1">Search Yachts</label>
+          </div>
+          <button type="button" class="btn btn-primary">
+            <i class="fas fa-search"></i>
+          </button>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-lg-6 row-cols-md-4 row-cols-sm-3 row-cols-1 text-center my-4 dropdown-row">
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Type
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">Motor</a></li>
+                <li><a class="dropdown-item" href="#">Sailing</a></li>
+                <li><a class="dropdown-item disabled bg-light text-black" style="font-size: small" href="#">Subtype :</a></li>
+                <li><a class="dropdown-item" href="#">Conversion</a></li>
+                <li><a class="dropdown-item" href="#">Explorer</a></li>
+                <li><a class="dropdown-item" href="#">Flybridge</a></li>
+                <li><a class="dropdown-item" href="#">Julet</a></li>
+                <li><a class="dropdown-item" href="#">J Class</a></li>
+                <li><a class="dropdown-item" href="#">Maxi</a></li>
+                <li><a class="dropdown-item" href="#">Motor Sailer</a></li>
+                <li><a class="dropdown-item" href="#">Sport Boat</a></li>
+                <li><a class="dropdown-item" href="#">Sport Fisherman</a></li>
+                <li><a class="dropdown-item" href="#">Support Yacht</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                Length
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">30m-</a></li>
+                <li><a class="dropdown-item" href="#">30m+</a></li>
+                <li><a class="dropdown-item" href="#">24m-30m</a></li>
+                <hr class="my-2">
+                <li><a class="dropdown-item" href="#">100m+</a></li>
+                <li><a class="dropdown-item" href="#">80m-100m</a></li>
+                <li><a class="dropdown-item" href="#">60m-80m</a></li>
+                <li><a class="dropdown-item" href="#">50m-60m</a></li>
+                <li><a class="dropdown-item" href="#">40m-50m</a></li>
+                <li><a class="dropdown-item" href="#">30m-40m</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                Volume
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">500gt-</a></li>
+                <li><a class="dropdown-item" href="#">500gt+</a></li>
+                <hr class="my-2">
+                <li><a class="dropdown-item" href="#">200gt-</a></li>
+                <li><a class="dropdown-item" href="#">200gt-300gt</a></li>
+                <li><a class="dropdown-item" href="#">300gt-500gt</a></li>
+                <li><a class="dropdown-item" href="#">500gt-750gt</a></li>
+                <li><a class="dropdown-item" href="#">750gt-1000gt</a></li>
+                <li><a class="dropdown-item" href="#">1000gt-1500gt</a></li>
+                <li><a class="dropdown-item" href="#">1500gt+</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
+                Builder
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">Nobiskrug</a></li>
+                <li><a class="dropdown-item" href="#">Amels</a></li>
+                <li><a class="dropdown-item" href="#">Lursen</a></li>
+                <li><a class="dropdown-item" href="#">Feadship</a></li>
+                <li><a class="dropdown-item" href="#">Abeking and Rasmussen</a></li>
+                <li><a class="dropdown-item" href="#">Perini Navi</a></li>
+                <li><a class="dropdown-item" href="#">Heesen</a></li>
+                <li><a class="dropdown-item" href="#">Oceanco</a></li>
+                <li><a class="dropdown-item" href="#">Benetti</a></li>
+                <li><a class="dropdown-item" href="#">Westport</a></li>
+                <li><a class="dropdown-item" href="#">Azimut</a></li>
+                <li><a class="dropdown-item" href="#">Sanlorenzo</a></li>
+                <li><a class="dropdown-item" href="#">Admiral</a></li>
+                <li><a class="dropdown-item disabled bg-light text-black" style="font-size: small" href="#">Country :</a></li>
+                <li><a class="dropdown-item" href="#">Germany</a></li>
+                <li><a class="dropdown-item" href="#">Italy</a></li>
+                <li><a class="dropdown-item" href="#">Netherlands</a></li>
+                <li><a class="dropdown-item" href="#">Taiwan</a></li>
+                <li><a class="dropdown-item" href="#">Turkey</a></li>
+                <li><a class="dropdown-item" href="#">United States</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton5" data-bs-toggle="dropdown" aria-expanded="false">
+                Year
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">2023</a></li>
+                <li><a class="dropdown-item" href="#">2022</a></li>
+                <li><a class="dropdown-item" href="#">2021</a></li>
+                <li><a class="dropdown-item" href="#">2020</a></li>
+                <li><a class="dropdown-item" href="#">2019</a></li>
+                <hr class="my-2">
+                <li><a class="dropdown-item" href="#">&ge; 2018</a></li>
+                <li><a class="dropdown-item" href="#">2013-2017</a></li>
+                <li><a class="dropdown-item" href="#">2003-2012</a></li>
+                <li><a class="dropdown-item" href="#">&le; 2002</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton6" data-bs-toggle="dropdown" aria-expanded="false">
+                Hull
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton6" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">Steel</a></li>
+                <li><a class="dropdown-item" href="#">Aluminium</a></li>
+                <li><a class="dropdown-item" href="#">GRP</a></li>
+                <li><a class="dropdown-item" href="#">Wood</a></li>
+                <li><a class="dropdown-item disabled bg-light text-black" style="font-size: small" href="#">Configuration :</a></li>
+                <li><a class="dropdown-item" href="#">Displacement</a></li>
+                <li><a class="dropdown-item" href="#">Planning</a></li>
+                <li><a class="dropdown-item" href="#">Semi Displacement</a></li>
+                <li><a class="dropdown-item" href="#">Fast Displacement</a></li>
+                <li><a class="dropdown-item disabled bg-light text-black" style="font-size: small" href="#">Type :</a></li>
+                <li><a class="dropdown-item" href="#">Mono hull</a></li>
+                <li><a class="dropdown-item" href="#">Catamaran</a></li>
+                <li><a class="dropdown-item" href="#">Trimaran</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton7" data-bs-toggle="dropdown" aria-expanded="false">
+                Designer
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton7" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">Tim Heywood</a></li>
+                <li><a class="dropdown-item" href="#">Terence Disdayle</a></li>
+                <li><a class="dropdown-item" href="#">Diana Yacht Design</a></li>
+                <li><a class="dropdown-item" href="#">Vripack</a></li>
+                <li><a class="dropdown-item" href="#">Bennenberg &amp; Rovel</a></li>
+                <li><a class="dropdown-item" href="#">Reymond Langton</a></li>
+                <li><a class="dropdown-item" href="#">RWD</a></li>
+                <li><a class="dropdown-item" href="#">Nuvolari Lenard</a></li>
+                <li><a class="dropdown-item" href="#">Winch</a></li>
+                <li><a class="dropdown-item" href="#">Espen Oeino</a></li>
+                <li><a class="dropdown-item" href="#">H2</a></li>
+                <li><a class="dropdown-item" href="#">Luiz de Basto</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton8" data-bs-toggle="dropdown" aria-expanded="false">
+                Events
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton8" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">Monaco Yacht Show - 2022</a></li>
+                <li><a class="dropdown-item" href="#">Cannes Yachting Festival - 2022</a></li>
+                <li><a class="dropdown-item" href="#">Fort Lauderdale International Boat Show - 2022</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton9" data-bs-toggle="dropdown" aria-expanded="false">
+                Sale &amp; Price
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton9" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">For Sale</a></li>
+                <li><a class="dropdown-item disabled bg-light text-black" style="font-size: small" href="#">Price :</a></li>
+                <li><a class="dropdown-item" href="#">&le; &euro;1M</a></li>
+                <li><a class="dropdown-item" href="#">&euro;1-2M</a></li>
+                <li><a class="dropdown-item" href="#">&euro;2-5M</a></li>
+                <li><a class="dropdown-item" href="#">&euro;5-10M</a></li>
+                <li><a class="dropdown-item" href="#">&euro;10-15M</a></li>
+                <li><a class="dropdown-item" href="#">&euro;15-25M</a></li>
+                <li><a class="dropdown-item" href="#">&ge; &euro;25M</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton10" data-bs-toggle="dropdown" aria-expanded="false">
+                Broker
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton10" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">Burgess</a></li>
+                <li><a class="dropdown-item" href="#">SuperYachtsMonaco</a></li>
+                <li><a class="dropdown-item" href="#">Edmiston</a></li>
+                <li><a class="dropdown-item" href="#">Engel &amp; V&ouml;lkers Yachting</a></li>
+                <li><a class="dropdown-item" href="#">Bennenberg &amp; Rovel</a></li>
+                <li><a class="dropdown-item" href="#">Ocean Independence</a></li>
+                <li><a class="dropdown-item" href="#">IYC</a></li>
+                <li><a class="dropdown-item" href="#">Imperial Yachts</a></li>
+                <li><a class="dropdown-item" href="#">Fraser</a></li>
+                <li><a class="dropdown-item" href="#">Bluewater Yachting</a></li>
+                <li><a class="dropdown-item" href="#">Y.CO</a></li>
+                <li><a class="dropdown-item" href="#">Denison Yachting</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col my-2">
+            <div class="dropdown">
+              <button class="btn btn-white dropdown-toggle border border-3 dropdown-btn" type="button" id="dropdownMenuButton11" data-bs-toggle="dropdown" aria-expanded="false">
+                Model
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton11" style="box-shadow: 0 5px 5px #888888;">
+                <li><a class="dropdown-item" href="#">Benetti Classic 35</a></li>
+                <li><a class="dropdown-item" href="#">Mangusta 130</a></li>
+                <li><a class="dropdown-item" href="#">Mangusta 108</a></li>
+                <li><a class="dropdown-item" href="#">Westport 130</a></li>
+                <li><a class="dropdown-item" href="#">Westport 112</a></li>
+                <li><a class="dropdown-item" href="#">Mangusta 165</a></li>
+                <li><a class="dropdown-item" href="#">Sanlorenzo SD122</a></li>
+                <li><a class="dropdown-item" href="#">Custom Line 120</a></li>
+                <li><a class="dropdown-item" href="#">Sunseeker 116</a></li>
+                <li><a class="dropdown-item" href="#">Sunseeker 131</a></li>
+                <li><a class="dropdown-item" href="#">Princess 35M</a></li>
+                <li><a class="dropdown-item" href="#">Benetti Fast 125</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1 align-items-center px-3">
+        <div class="col fw-normal">
+            Displaying Yachts <span class="fw-bolder">2 - 24</span> of <span class="fw-bolder">9532</span> in total
+        </div>
+        <hr class="d-none hr-d-none my-3">
+        <div class="col justify-content-center">
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 justify-content-end align-items-center">
+                <div class="col right">Order by</div>
+                <div class="col justify-content-center my-1">
+                    <select class="form-select border-dark" aria-label="Default select example">
+                      <option selected>Name</option>
+                      <option value="1">Type</option>
+                      <option value="2">Length overall</option>
+                      <option value="3">Gross Tonnage</option>
+                      <option value="4">Year</option>
+                      <option value="5">Price</option>
+                      <option value="6">Random</option>
+                    </select>
+                </div>
+                <div class="col justify-content-center my-1">
+                    <select class="form-select border-dark" aria-label="Default select example">
+                      <option selected>Ascending</option>
+                      <option value="1">Descending</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Filter Section ends here-->
+    
+<!--Card Section starts here-->
+<div class="container-fluid mb-4 mt-2">
+    <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 justify-content-center p-2 m-1">
+        <div class="col mb-4">
+            <div class="card hover-bs m-2 wow rotateIn" data-wow-duration="1.5s" style="border-radius: 10px;box-shadow: 0 3px 6px 0 #00000029;">
+              <img src="assets/Images/Prince Abdulaziz Yacht.jpg" class="card-img-top" alt="..." style="border-radius: 10px 10px 0 0;">
+              <div class="card-body">
+                <p class="card-title ff-gothic">Prince Abdulaziz</p>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col">147.01m</div>
+                    <div class="col">4,620 GT</div>
+                    <div class="col">1984</div>
+                </div>
+                <div class="row align-items-center text-primary">
+                    <div class="col">Helsingor Vaerft<span class="mx-4" style="font-size: 10px;">DK</span></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: right;">
+                        <button class="btn btn-primary rounded-3 open1">View More</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card hover-bs m-2 wow rotateIn" data-wow-duration="1.7s" style="border-radius: 10px;box-shadow: 0 3px 6px 0 #00000029;">
+              <img src="assets/Images/Sassi Yacht.jpg" class="card-img-top" alt="..." style="border-radius: 10px 10px 0 0;">
+              <div class="card-body">
+                <p class="card-title ff-gothic">Sassi</p>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col">146.0m</div>
+                    <div class="col">12,000 GT</div>
+                    <div class="col">2016</div>
+                </div>
+                <div class="row align-items-center text-primary">
+                    <div class="col">L&uuml;rssen<span class="mx-4" style="font-size: 10px;">DE</span></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: right;">
+                        <button class="btn btn-primary rounded-3 open2">View More</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card hover-bs m-2 wow rotateIn" data-wow-duration="1.9s" style="border-radius: 10px;box-shadow: 0 3px 6px 0 #00000029;">
+              <img src="assets/Images/Opera Yacht.jpg" class="card-img-top" alt="..." style="border-radius: 10px 10px 0 0;">
+              <div class="card-body">
+                <p class="card-title ff-gothic">Opera</p>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col">146.0m</div>
+                    <div class="col">12,000 GT</div>
+                    <div class="col">2023</div>
+                </div>
+                <div class="row align-items-center text-primary">
+                    <div class="col">L&uuml;rssen<span class="mx-4" style="font-size: 10px;">DE</span></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: right;">
+                        <button class="btn btn-primary rounded-3 open3">View More</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card hover-bs m-2 wow rotateIn" data-wow-duration="2.1s" style="border-radius: 10px;box-shadow: 0 3px 6px 0 #00000029;">
+              <img src="assets/Images/OK Yacht.jpeg" class="card-img-top" alt="..." style="border-radius: 10px 10px 0 0;">
+              <div class="card-body">
+                <p class="card-title ff-gothic">OK</p>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col">146.0m</div>
+                    <div class="col">10,224 GT</div>
+                    <div class="col">1982</div>
+                </div>
+                <div class="row align-items-center text-primary">
+                    <div class="col">Oshima Shipyard<span class="mx-4" style="font-size: 10px;">JP</span></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: right;">
+                        <button class="btn btn-primary rounded-3 open4">View More</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card hover-bs m-2 wow rotateIn" data-wow-duration="2.3s" style="border-radius: 10px;box-shadow: 0 3px 6px 0 #00000029;">
+              <img src="assets/Images/El Mahrousa Yacht.jpg" class="card-img-top" alt="..." style="border-radius: 10px 10px 0 0;">
+              <div class="card-body">
+                <p class="card-title ff-gothic">El Mahrousa</p>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col">145.72m</div>
+                    <div class="col">4,561 GT</div>
+                    <div class="col">1865</div>
+                </div>
+                <div class="row align-items-center text-primary">
+                    <div class="col">Samuda Bros.<span class="mx-4" style="font-size: 10px;">GB</span></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: right;">
+                        <button class="btn btn-primary rounded-3 open5">View More</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card hover-bs m-2 wow rotateIn" data-wow-duration="2.5s" style="border-radius: 10px;box-shadow: 0 3px 6px 0 #00000029;">
+              <img src="assets/Images/Luminance Yacht.jpg" class="card-img-top" alt="..." style="border-radius: 10px 10px 0 0;">
+              <div class="card-body">
+                <p class="card-title ff-gothic">Luminance</p>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col">145.0m</div>
+                    <div class="col">9,000 GT</div>
+                    <div class="col">2023</div>
+                </div>
+                <div class="row align-items-center text-primary">
+                    <div class="col">L&uuml;rssen<span class="mx-4" style="font-size: 10px;">DE</span></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: right;">
+                        <button class="btn btn-primary rounded-3 open6">View More</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card hover-bs m-2 wow rotateIn" data-wow-duration="2.7s" style="border-radius: 10px;box-shadow: 0 3px 6px 0 #00000029;">
+              <img src="assets/Images/Nord Yacht.jpg" class="card-img-top" alt="..." style="border-radius: 10px 10px 0 0;">
+              <div class="card-body">
+                <p class="card-title ff-gothic">Nord</p>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col">141.63m</div>
+                    <div class="col">10,154 GT</div>
+                    <div class="col">2021</div>
+                </div>
+                <div class="row align-items-center text-primary">
+                    <div class="col">L&uuml;rssen<span class="mx-4" style="font-size: 10px;">DE</span></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: right;">
+                        <button class="btn btn-primary rounded-3 open7">View More</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card hover-bs m-2 wow rotateIn" data-wow-duration="2.9s" style="border-radius: 10px;box-shadow: 0 3px 6px 0 #00000029;">
+              <img src="assets/Images/Al Salamah Yacht.jpg" class="card-img-top" alt="..." style="border-radius: 10px 10px 0 0;">
+              <div class="card-body">
+                <p class="card-title ff-gothic">Al Salamah</p>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col">139.3m</div>
+                    <div class="col">12,234 GT</div>
+                    <div class="col">1999</div>
+                </div>
+                <div class="row align-items-center text-primary">
+                    <div class="col">L&uuml;rssen<span class="mx-4" style="font-size: 10px;">DE</span></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: right;">
+                        <button class="btn btn-primary rounded-3 open8">View More</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>   
+</div>
+<!--Card Section ends here-->
+    
+<!--Pagination Section starts here-->
+<nav aria-label="Page navigation example" class="my-2">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="luxury.html">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="luxury.html">1</a></li>
+    <li class="page-item active"><a class="page-link" href="luxury-2.html">2</a></li>
+    <li class="page-item disabled">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+<!--Pagination Section ends here-->
+    
+<!--Footer Section starts here-->
+    <footer class="text-center text-lg-start mt-xl-5 pt-4">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4 fw-bolder fs-4" style="color: blue;">
+              <a href="index.html"><img src="assets/Images/Marina Fleet 1.png" alt="" class="w-25"></a>
+              Marina Fleet
+            </h5>
+
+          <ul class="list-unstyled mb-4">
+            <li>
+              <a href="index.html" class="text-white fs-5">Home</a>
+            </li>
+            <li>
+              <a href="gallery.html" class="text-white fs-5">Gallery</a>
+            </li>
+            <li>
+              <a href="about.html" class="text-white fs-5">About us</a>
+            </li>
+            <li>
+              <a href="feedback.html" class="text-white fs-5">Feedback</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">Categories</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Luxury</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Sailing</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Fishing</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+            <h5 class="text-uppercase mb-4">Follow us</h5>
+
+            <!-- Facebook -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://facebook.com/" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://twitter.com/" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="https://google.com/" target="_blank" role="button"><i class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://instagram.com/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://linkedin.com/" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+            <!-- Github -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/" target="_blank" role="button"><i class="fab fa-github"></i></a>
+          </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+
+          <div class="form-floating form-white mb-4">
+            <input type="email" id="floatingInput" class="form-control" placeholder="name@example.com"/>
+            <label for="floatingInput">Email address</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 border-top border-white">
+      © 2023 Copyright:
+      <a class="text-white" href="index.html">Marinafleet.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+<!--Footer Section ends here-->
+    
+<!--Popup Section starts here-->
+<div id="main1" class="container-fluid top-0 bg-black bg-opacity-50 h-100 position-fixed overflow-auto" style="left: 0;z-index: 3;">
+    <div class="w-75 h-auto bg-light position-relative justify-content-center" style="top: 25%;left: 15%;">
+        <button type="button" class="btn-close" id="close1"></button>
+        <div class="row px-5 py-3 justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-7 col-12">
+                <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Images/Prince Abdulaziz Yacht.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Prince Abdulaziz Yacht2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Prince Abdulaziz Yacht3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="ff-gothic fs-3">Prince Abdulaziz Yacht</h1>
+                <p class="font-size">
+                    Prince Abdulaziz is a motor yacht with a length of 147.01m. The yacht's builder is Helsingor Vaerft from Denmark who delivered superyacht Prince Abdulaziz in 1984. The superyacht has a beam of 18.3m, a draft of 4.88m and a volume of 4,620 GT.<br>
+
+                    The Prince Abdulaziz, previously named Abdulaziz, features exterior design by Maierform Maritime Technology GmbH, while her interior was penned by David Hicks, with naval architecture by Maierform Maritime Technology GmbH. The yacht Prince Abdulaziz has a steel hull and steel superstructure. She is powered by 2 Pielstick engines, which give her a cruising speed of 18.0 kn and a top speed of 22.0 kn. The yacht has a speed of 18.0 kn.
+                </p>
+                <button class="btn btn-primary mb-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main2" class="container-fluid top-0 bg-black bg-opacity-50 h-100 position-fixed overflow-auto" style="left: 0;z-index: 3;">
+    <div class="w-75 h-auto bg-light position-relative justify-content-center" style="top: 25%;left: 15%;">
+        <button type="button" class="btn-close" id="close2"></button>
+        <div class="row px-5 py-3 justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-7 col-12">
+                <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Images/Sassi Yacht.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Sassi Yacht2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="ff-gothic fs-3">Sassi Yacht</h1>
+                <p class="font-size">
+                    Sassi is a motor yacht with a length of 146.0m. The yacht's builder is Lürssen from Germany who delivered superyacht Sassi in. The superyacht has a volume of 12,000 GT.<br>
+
+                   On the ranking of the largest yachts in the world, Sassi superyacht is listed as number 11th. She is the 7th-largest yacht built by Lürssen. The owner of yacht Sassi is shown in SYT iQ and is exclusively available to subscribers. On SuperYacht Times we have 2 photos of yacht Sassi, and she is featured in 1 yacht news articles.
+                </p>
+                <button class="btn btn-primary mb-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main3" class="container-fluid top-0 bg-black bg-opacity-50 h-100 position-fixed overflow-auto" style="left: 0;z-index: 3;">
+    <div class="w-75 h-auto bg-light position-relative justify-content-center" style="top: 25%;left: 15%;">
+        <button type="button" class="btn-close" id="close3"></button>
+        <div class="row px-5 py-3 justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-7 col-12">
+                <div id="carouselExampleFade3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Images/Opera Yacht.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Opera Yacht2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Opera Yacht3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="ff-gothic fs-3">Opera Yacht</h1>
+                <p class="font-size">
+                    Opera is a motor yacht with a length of 146.35m. The yacht's builder is Lürssen from Germany who delivered superyacht Opera in 2023. The superyacht has a beam of 21.5m and a volume of 12,518 GT.<br>
+
+                    On the ranking of the largest yachts in the world, Opera superyacht is listed as number 10th. She is the 6th-largest yacht built by Lürssen. The owner of yacht Opera is shown in SYT iQ and is exclusively available to subscribers. On SuperYacht Times we have 17 photos of yacht Opera, and she is featured in 11 yacht news articles.
+                </p>
+                <button class="btn btn-primary mb-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main4" class="container-fluid top-0 bg-black bg-opacity-50 h-100 position-fixed overflow-auto" style="left: 0;z-index: 3;">
+    <div class="w-75 h-auto bg-light position-relative justify-content-center" style="top: 25%;left: 15%;">
+        <button type="button" class="btn-close" id="close4"></button>
+        <div class="row px-5 py-3 justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-7 col-12">
+                <div id="carouselExampleFade4" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Images/OK Yacht.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Ok Yacht2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Ok Yacht3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="ff-gothic fs-3">Ok Yacht</h1>
+                <p class="font-size">
+                    OK is a motor yacht with a length of 146.0m. The yacht's builder is Oshima Shipyard from Japan who delivered superyacht OK in 1982. The superyacht has a beam of 32.01m, a draft of 6.26m and a volume of 10,224 GT.<br>
+
+                    The conversion yacht, support yacht yacht, previously named Super Servant 3, features exterior design by Bozca Design Ltd. Up to 20 guests are accommodated on board the superyacht OK The yacht OK has a steel hull and steel superstructure. She is powered by 2 Stork engines. The yacht carries 201,000 liters of fuel on board
+                </p>
+                <button class="btn btn-primary mb-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main5" class="container-fluid top-0 bg-black bg-opacity-50 h-100 position-fixed overflow-auto" style="left: 0;z-index: 3;">
+    <div class="w-75 h-auto bg-light position-relative justify-content-center" style="top: 25%;left: 15%;">
+        <button type="button" class="btn-close" id="close5"></button>
+        <div class="row px-5 py-3 justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-7 col-12">
+                <div id="carouselExampleFade5" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Images/El Mahrousa Yacht.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="ff-gothic fs-3">El Mahrousa Yacht</h1>
+                <p class="font-size">
+                    El Mahrousa is a motor yacht with a length of 145.72m. The yacht's builder is Samuda Bros. from United Kingdom who delivered superyacht El Mahrousa in 1865. The superyacht has a beam of 13.0m, a draft of 5.3m and a volume of 4,561 GT.<br>
+
+                    The El Mahrousa, previously named El Horreya, Mahroussa, features exterior design by Oliver Lang, with naval architecture by Oliver Lang. Up to 160 crew members including the captain of El Mahrousa are accommodated on board the superyacht El Mahrousa, The yacht El Mahrousa has a steel hull. She is powered by 3 Parsons engines, which give her a cruising speed of 13.0 kn and a top speed of 16.0 kn. The yacht has a speed of 13.0 kn.
+                </p>
+                <button class="btn btn-primary mb-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main6" class="container-fluid top-0 bg-black bg-opacity-50 h-100 position-fixed overflow-auto" style="left: 0;z-index: 3;">
+    <div class="w-75 h-auto bg-light position-relative justify-content-center" style="top: 25%;left: 15%;">
+        <button type="button" class="btn-close" id="close6"></button>
+        <div class="row px-5 py-3 justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-7 col-12">
+                <div id="carouselExampleFade6" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Images/Luminance Yacht.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Luminance Yacht2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Luminance Yacht3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade6" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade6" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="ff-gothic fs-3">Luminance Yacht</h1>
+                <p class="font-size">
+                   Luminance is a motor yacht with a length of 145.0m. The yacht's builder is Lürssen from Germany who delivered superyacht Luminance in 2023. The superyacht has a beam of 18.0m and a volume of 9,000 GT.<br>
+
+                    On the ranking of the largest yachts in the world, Luminance superyacht is listed as number 14th. She is the 8th-largest yacht built by Lürssen. The owner of yacht Luminance is shown in SYT iQ and is exclusively available to subscribers. On SuperYacht Times we have 28 photos of yacht Luminance, and she is featured in 9 yacht news articles.
+                </p>
+                <button class="btn btn-primary mb-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main7" class="container-fluid top-0 bg-black bg-opacity-50 h-100 position-fixed overflow-auto" style="left: 0;z-index: 3;">
+    <div class="w-75 h-auto bg-light position-relative justify-content-center" style="top: 25%;left: 15%;">
+        <button type="button" class="btn-close" id="close7"></button>
+        <div class="row px-5 py-3 justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-7 col-12">
+                <div id="carouselExampleFade7" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Images/Nord Yacht.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Nord Yacht2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Nord Yacht3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade7" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade7" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="ff-gothic fs-3">Nord Yacht</h1>
+                <p class="font-size">
+                    Nord is a motor yacht with a length of 141.63m. The yacht's builder is Lürssen from Germany who delivered superyacht Nord in 2021. The superyacht has a beam of 19.5m, a draft of 5.15m and a volume of 10,154 GT.<br>
+
+                    The Nord, previously named Opus, features exterior design by Nuvolari Lenard, while her interior was penned by Nuvolari Lenard, with naval architecture by Lürssen Yachts. Up to 36 guests are accommodated on board the superyacht Nord The yacht Nord has a steel hull and aluminium superstructure. She is powered by 4 MTU engines, which give her a cruising speed of 15.0 kn and a top speed of 20.0 kn. The yacht has a speed of 15.0 kn.
+                </p>
+                <button class="btn btn-primary mb-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main8" class="container-fluid top-0 bg-black bg-opacity-50 h-100 position-fixed overflow-auto" style="left: 0;z-index: 3;">
+    <div class="w-75 h-auto bg-light position-relative justify-content-center" style="top: 25%;left: 15%;">
+        <button type="button" class="btn-close" id="close8"></button>
+        <div class="row px-5 py-3 justify-content-center">
+            <div class="col-lg-5 col-md-7 col-sm-7 col-12">
+                <div id="carouselExampleFade8" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Images/Al Salamah Yacht.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Al Salamah Yacht2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/Images/Al Salamah Yacht3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade8" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade8" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="ff-gothic fs-3">Al Salamah Yacht</h1>
+                <p class="font-size">
+                    Al Salamah is a motor yacht with a length of 139.3m. The yacht's builder is Lürssen from Germany who delivered superyacht Al Salamah in 1999. The superyacht has a beam of 23.5m, a draft of 5.0m and a volume of 12,234 GT.<br>
+
+                    The Al Salamah, previously named Mipos, features exterior design by Terence Disdale Design, while her interior was penned by Terence Disdale Design, with naval architecture by Lürssen Yachts. Up to 40 guests are accommodated on board the superyacht Al Salamah, and she also has accommodation for 94 crew members including the captain of Al Salamah. The yacht Al Salamah has a steel hull and aluminium superstructure. She is powered by 2 MTU engines, which give her a cruising speed of 17.0 kn and a top speed of 21.0 kn. The yacht has a speed of 17.0 kn. The yacht carries 840,000 liters of fuel on board.
+                </p>
+                <button class="btn btn-primary mb-5">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Popup Section ends here-->
+    
+<!-- This is my jQuery File -->
+<script src="assets/jquery/jquery.js"></script>
+
+<!-- This is my jQuery UI Javascript File -->
+<script src="assets/jquery/jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+
+<!-- This is my Bootstrap Javascript File -->
+<script src="assets/Bootstrap/js/bootstrap.min.js"></script>
+    
+<!--This is my Bootstrap Bundle Javascript File-->
+<script src="assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- This is my WOW Animation Javascript File -->
+<script src="assets/WOW/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script>
+$(document).ready(function(){
+    $("#main1,#main2,#main3,#main4,#main5,#main6,#main7,#main8").hide();
+    $(".dropdown-row .col .dropdown .dropdown-menu .dropdown-item").addClass("font-size");
+    
+     var availableTags = [
+        "Azzam",
+        "Fulk Al Salamah",
+        "Eclipse",
+        "Dubai",
+        "Blue",
+        "Dibar",
+        "Al Said",
+        "A+",
+        "Prince Abdulaziz",
+        "Sassi",
+        "Opera",
+        "OK",
+        "Al Mahrousa",
+        "Luminance",
+        "Nord",
+        "Al Salamah",
+        "Sailing Yacht A",
+        "Koru",
+        "Black Pearl",
+        "EOS",
+        "Athena",
+        "Maltese Falcon",
+        "Aquijo",
+        "Sea Eagle",
+        "M5",
+        "Enigma",
+        "Badis I",
+        "Vertigo",
+        "Hetairos",
+        "Anatta",
+        "Creole",
+        "Lamima",
+        "Bad Company",
+        "Lanakai",
+        "Red Sapphire I",
+        "Cielo Mare",
+        "Obsessions",
+        "Mary P",
+        "C.Omar",
+        "Sea Call",
+        "M",
+        "Empire Sea",
+        "El Ray",
+        "Netto",
+        "Seya",
+        "Al Duhail",
+        "Tempo Reale",
+        "Aquila"
+    ];
+    $( "#form1" ).autocomplete({
+      source: availableTags
+    });
+    
+    
+    $("#close1").click(function(){
+        $("#main1").fadeOut();
+    });
+    $(".open1").click(function(){
+        $("#main1").fadeIn();
+    });
+    
+    $("#close2").click(function(){
+        $("#main2").fadeOut();
+    });
+    $(".open2").click(function(){
+        $("#main2").fadeIn();
+    });
+    
+    $("#close3").click(function(){
+        $("#main3").fadeOut();
+    });
+    $(".open3").click(function(){
+        $("#main3").fadeIn();
+    });
+    
+    $("#close4").click(function(){
+        $("#main4").fadeOut();
+    });
+    $(".open4").click(function(){
+        $("#main4").fadeIn();
+    });
+    
+    $("#close5").click(function(){
+        $("#main5").fadeOut();
+    });
+    $(".open5").click(function(){
+        $("#main5").fadeIn();
+    });
+    
+    $("#close6").click(function(){
+        $("#main6").fadeOut();
+    });
+    $(".open6").click(function(){
+        $("#main6").fadeIn();
+    });
+    
+    $("#close7").click(function(){
+        $("#main7").fadeOut();
+    });
+    $(".open7").click(function(){
+        $("#main7").fadeIn();
+    });
+    
+    $("#close8").click(function(){
+        $("#main8").fadeOut();
+    });
+    $(".open8").click(function(){
+        $("#main8").fadeIn();
+    });
+});    
+</script>
+</body>
+</html>
